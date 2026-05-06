@@ -37,9 +37,34 @@ A professional-grade, cross-platform financial CLI tool built with **C# .NET**. 
 
 Choose the standalone version for your operating system. No external dependencies are required.
 
-| Platform | Download | Launch Instruction |
+### 1. Download
+| Platform | Package | Launch File |
 | :--- | :--- | :--- |
-| **Linux (x64)** | [BUDGET-TRACKER.Linux.tar.gz](https://github.com/GreatOmar/BUDGET-TRACKER/releases/download/v1.0/BUDGET-TRACKER.Linux.tar.gz) | `chmod +x BUDGET_TRACKER && ./BUDGET_TRACKER` |
-| **Windows (x64)** | [BUDGET-TRACKER.Windows.zip](https://github.com/GreatOmar/BUDGET-TRACKER/releases/download/v1.0/BUDGET-TRACKER.Windows.zip) | Launch `BUDGET_TRACKER.exe` |
+| **Windows (x64)** | [BUDGET-TRACKER.Windows.zip](https://github.com/GreatOmar/BUDGET-TRACKER/releases/download/v1.0/BUDGET-TRACKER.Windows.zip) | `BUDGET_TRACKER.exe` |
+| **Linux (x64)** | [BUDGET-TRACKER.Linux.tar.gz](https://github.com/GreatOmar/BUDGET-TRACKER/releases/download/v1.0/BUDGET-TRACKER.Linux.tar.gz) | `BUDGET_TRACKER` |
+
+---
+
+### 2. Setup Instructions
+
+#### **🪟 For Windows Users:**
+1.  **Extract**: Right-click the `BUDGET-TRACKER.Windows.zip` file and select **"Extract All..."**.
+2.  **Open**: Navigate to the extracted folder.
+3.  **Run**: Double-click `BUDGET_TRACKER.exe`. 
+    *(Note: If Windows SmartScreen appears, click "More info" -> "Run anyway")*.
+
+#### **🐧 For Linux Users:**
+1.  **Extract**: Open your terminal and run:
+    ```bash
+    tar -xvzf BUDGET-TRACKER.Linux.tar.gz
+    ```
+2.  **Permissions**: Give the binary execution rights:
+    ```bash
+    chmod +x BUDGET_TRACKER
+    ```
+3.  **Run**: Execute the app:
+    ```bash
+    ./BUDGET_TRACKER
+    ```
 
 > **Note**: For developers, the source code can be executed directly using `dotnet run` within the project directory.
