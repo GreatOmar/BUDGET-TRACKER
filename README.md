@@ -8,7 +8,7 @@ A professional-grade, cross-platform financial CLI tool built with **C# .NET**. 
 
 *   **Secure Access**: Integrated local authentication system to protect sensitive financial data.
 *   **Automated Persistence**: Seamlessly saves and updates your financial state in a localized data file.
-*   **Dynamic Visuals**: Adaptive Sky Blue (Cyan) ASCII interface that optimizes itself to your terminal's dimensions.
+*   **Dynamic Visuals**: Adaptive ASCII interface that optimizes itself to your terminal's dimensions.
 *   **Financial Insights**:
     *   Real-time salary and expense tracking.
     *   Smart budget alerts and health status indicators.
