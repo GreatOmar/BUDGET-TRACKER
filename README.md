@@ -39,7 +39,7 @@ Choose the standalone version for your operating system. No external dependencie
 
 | Platform | Download | Launch Instruction |
 | :--- | :--- | :--- |
-| **Linux (x64)** | [Download Binary](#) | `chmod +x BUDGET_TRACKER && ./BUDGET_TRACKER` |
-| **Windows (x64)** | [Download Executable](#) | Launch `BUDGET_TRACKER.exe` |
+| **Linux (x64)** | [BUDGET-TRACKER.Linux.tar.gz](#) | `chmod +x BUDGET_TRACKER && ./BUDGET_TRACKER` |
+| **Windows (x64)** | [BUDGET-TRACKER.Windows.zip](#) | Launch `BUDGET_TRACKER.exe` |
 
 > **Note**: For developers, the source code can be executed directly using `dotnet run` within the project directory.
