@@ -1,0 +1,21 @@
+# .NET Core folders
+bin/
+obj/
+
+# User-specific data (Security)
+budget.txt
+
+# JetBrains Rider
+.idea/
+*.user
+
+# Publishing outputs
+linux-x64/
+win-x64/
+publish/
+
+# System files
+.DS_Store
+Thumbs.db
+
+config/
