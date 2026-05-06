@@ -175,7 +175,7 @@ namespace BUDGET_TRACKER
             foreach (string line in logo) PrintCentered(line);
             Console.WriteLine();
             PrintCentered("=====================================================================================");
-            PrintCentered("S M A R T   B U D G E T   A S S I S T A N T   v 1.3");
+            PrintCentered("S M A R T   B U D G E T   A S S I S T A N T   v 1.0");
             PrintCentered("=====================================================================================");
             Console.ResetColor();
         }
